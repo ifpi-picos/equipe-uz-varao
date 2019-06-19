@@ -6,11 +6,10 @@ nav{
   background-color: rgb(163,73, 164);
   text-align: right;
   font-size: 1.5em;
-  padding: 10px 0px;
+  padding: px 0px;
   width: 100%;
+  position: fixed;
 }
-
-
 nav h1, nav ul{
   color: white;
   display: inline-block;
@@ -21,6 +20,7 @@ nav h1, nav ul{
 nav h1{
   text-align: left;
   text-transform: uppercase;
+  margin: 10px;
 }
 
 .destaque{
