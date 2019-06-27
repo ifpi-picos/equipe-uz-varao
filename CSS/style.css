@@ -45,16 +45,21 @@ nav ul li{
 }
 
 img{
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
 
 }
-#equipe img{
-  border-radius: 20%;
-  border: 2px solid black;
+.membro{
   display: inline-block;
-  width: 200px;
+  width: 33%;
   height: 300px;
-  margin-left: 50px;
-  margin-right: 50px
+}
 
+.membro img{
+  border-radius: 100%;
+
+}
+footer{
+  height: 100px;
+  background-color: white;
 }
