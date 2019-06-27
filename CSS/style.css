@@ -2,6 +2,10 @@ body{
   text-align: center;
   margin: 0;
 }
+nav a{
+  text-decoration: none;
+  color: white
+}
 nav{
   background-color: rgb(163,73, 164);
   text-align: right;
@@ -20,7 +24,7 @@ nav h1, nav ul{
 nav h1{
   text-align: left;
   text-transform: uppercase;
-  margin: 10px;
+  margin: 10pxs;
 }
 
 .destaque{
@@ -42,5 +46,15 @@ nav ul li{
 
 img{
   width: 100%;
+
+}
+#equipe img{
+  border-radius: 20%;
+  border: 2px solid black;
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  margin-left: 50px;
+  margin-right: 50px
 
 }
