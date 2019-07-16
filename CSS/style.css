@@ -52,7 +52,8 @@ img{
 .membro{
   display: inline-block;
   width: 33%;
-  height: 300px;
+  height: 3
+  00px;
 }
 
 .membro img{
@@ -63,3 +64,17 @@ footer{
   height: 100px;
   background-color: white;
 }
+
+@media(max-width: 750px){
+  img, nav, footer, .membro{
+    width: 45%;
+    margin: 5px 2.5%;
+  }
+  }
+  
+  @media(max-width: 375px){
+    img, nav, footer, .membro{
+      width: 90%;
+      margin: 5px 5%;
+    }
+    }

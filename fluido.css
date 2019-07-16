@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 90%;
+  margin: 0 auto;
+}
+
+div{
+  background: #ccc;
+  padding: 5px;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.topo{
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.esquerda{
+  width: 30%;
+  min-height: 400px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.meio{
+  width: 30%;
+  margin: 0 5%;
+  min-height: 400px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.direita{
+  width: 30%;
+  min-height: 400px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media(max-width: 750px){
+.esquerda, .meio, .direita{
+  width: 45%;
+  margin: 5px 2.5%;
+}
+}
+
+@media(max-width: 375px){
+  .esquerda, .meio, .direita{
+    width: 90%;
+    margin: 5px 5%;
+  }
+  }
