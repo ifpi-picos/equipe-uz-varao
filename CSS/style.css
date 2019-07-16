@@ -43,6 +43,9 @@ nav ul li{
   display: inline-block;
   margin-right: 30px;
 }
+section{
+  font-size: 1.2em;
+}
 
 img{
   max-width: 100%;
@@ -52,8 +55,7 @@ img{
 .membro{
   display: inline-block;
   width: 33%;
-  height: 3
-  00px;
+  height: 300px;
 }
 
 .membro img{
@@ -62,7 +64,8 @@ img{
 }
 footer{
   height: 100px;
-  background-color: white;
+  background-color: rgb(163,73, 164);
+  color: white;
 }
 
 @media(max-width: 750px){
